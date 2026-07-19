@@ -1,0 +1,14 @@
+{
+  "name": "smart-study-coach",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @smart-study-coach/web dev",
+    "build": "pnpm --filter @smart-study-coach/web build",
+    "preview": "pnpm --filter @smart-study-coach/web preview",
+    "typecheck": "pnpm --filter @smart-study-coach/web exec tsc -b",
+    "test": "pnpm --filter @smart-study-coach/web test"
+  }
+}

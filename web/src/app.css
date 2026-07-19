@@ -1,0 +1,7 @@
+/* Smart Study Coach — brand fonts */
+/* Body: Manrope | Display/Headings: Fraunces */
+
+.font-display,
+h1, h2, h3 {
+  font-family: "Fraunces", serif;
+}
