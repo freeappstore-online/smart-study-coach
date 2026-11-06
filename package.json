@@ -8,7 +8,6 @@
     "dev": "pnpm --filter @smart-study-coach/web dev",
     "build": "pnpm --filter @smart-study-coach/web build",
     "preview": "pnpm --filter @smart-study-coach/web preview",
-    "typecheck": "pnpm --filter @smart-study-coach/web exec tsc -b",
-    "test": "pnpm --filter @smart-study-coach/web test"
+    "typecheck": "pnpm --filter @smart-study-coach/web exec tsc -b"
   }
 }
